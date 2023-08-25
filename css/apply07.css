@@ -96,7 +96,7 @@ footer {
         grid-template-columns: auto auto auto auto;
    }
     
-    .aside{
+    aside{
            grid-column: 1/span 4;
     }
     
