@@ -79,7 +79,7 @@ footer {
 @media screen and (min-width: 650px), print {
     .grid {
         display:grid;
-        grid-template-columns:repeat(2, 1fr);
+        grid-template-columns: auto auto;
         grid-gap:20px;
     }
     
@@ -92,11 +92,11 @@ footer {
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1024px), print {
     .grid {
-        grid-template-columns: 1/span 4;
-    }
+        grid-template-columns: auto auto auto auto;
+   }
     
     .aside{
-        grid-column: 4;
+           grid-column: 1/span 4;
     }
     
 }
